@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container{
+    border: 1px solid black;
+    /* margin-bottom: 20px; */
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.background-paragrafo{
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+.image-italia{
+    position: absolute;
+    /* per poter vedere l'immagine al di sopra dell'altro contenitore che ha un'immagine relativa */
+}
+
+h1 {
+    color: red;
+}

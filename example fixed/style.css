@@ -1,0 +1,29 @@
+body {
+    background-color: bisque;
+    margin: 0;
+    padding-top: 3%;
+}
+
+.nav {
+    /* un oggetto adiacente all'altro:  */
+    display: flex; 
+    width: 100%;
+    gap: 2%; /*Distanza */
+    border-bottom: 1px solid #000000;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: azure;
+    height: 10%;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    flex-direction: column;
+}
